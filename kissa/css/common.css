@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "utf-8";
 
 *,
 ::before,
@@ -122,9 +122,45 @@ img {
         padding-left: 20px;
         padding-right: 20px;
         height: 100%;
+        position: relative;
     }
 
     .header-logo {
         width: 100px;
+    }
+
+    .header-site-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        color: #ffffff;
+        background-color: #736E62;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        display: none;
+    }
+
+    .header-site-menu.is-show {
+        display: block;
+    }
+
+    .toggle-menu-button {
+        display: block;
+        width: 44px;
+        height: 34px;
+        background-image: url(../images/common/icon-menu.png);
+        background-size: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        border: none;
+        border-radius: 0;
+        outline: none;
+    }
+
+    .main {
+        padding-top: 50px;
+        display: block;
     }
 }
