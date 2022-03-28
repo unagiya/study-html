@@ -163,4 +163,16 @@ img {
         padding-top: 50px;
         display: block;
     }
+
+    .footer-logo {
+        margin-top: 60px;
+    }
+
+    .footer-tel {
+        font-size: 20px;
+    }
+
+    .copyright {
+        margin-top: 50px;
+    }
 }
