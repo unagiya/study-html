@@ -54,14 +54,14 @@
         <h2>お問合せフォーム</h2>
         <form action="#">
             <dl class="form-area">
-                <dt>お名前<span class="required"></span></dt>
+                <dt><span class="required">お名前</span></dt>
                 <dd>
-                    <input class="imput-text" type="text" name="name" required></input>
+                    <input class="input-text" type="text" name="name" required></input>
                 </dd>
                 <dt><span class="required">メールアドレス</span></dt>
                 <dd><input type="email" class="input-text" name="name" requirec></dd>
                 <dt><span class="required">お電話番号</span></dt>
-                <dt><input type="tel" class="input-tel" name="tel"></dt>
+                <dd><input type="tel" class="input-tel" name="tel"></dd>
                 <dt>お問い合わせ種別</dt>
                 <dd>
                     <select name="genre" class="select-box">
@@ -72,13 +72,13 @@
                 </dd>
                 <dt>お客さまについて</dt>
                 <dd>
-                    <label class="redio-button"><input type="radio" name="user-type" value="一般のお客さま" checked>一般のお客さま</label>
-                    <label class="redio-button"><input type="radio" name="user-type" value="お取引先様">お取引先様</label>
-                    <label class="redio-button"><input type="radio" name="user-type" value="その他">その他</label>
+                    <label class="radio-button"><input type="radio" name="user-type" value="一般のお客さま" checked>一般のお客さま</label>
+                    <label class="radio-button"><input type="radio" name="user-type" value="お取引先様">お取引先様</label>
+                    <label class="radio-button"><input type="radio" name="user-type" value="その他">その他</label>
                 </dd>
                 <dt><span class="required">お問い合わせ内容</span></dt>
                 <dd>
-                    <testarea class="message" name="message" required></testarea>
+                    <textarea class="message" name="message" required></textarea>
                 </dd>
             </dl>
             <p class="confirm-text">ご入力内容をご確認の上、お間違いがなければ [Submit] ボタンを押してください。</p>
